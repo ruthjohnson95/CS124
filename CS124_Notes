@@ -1,0 +1,21 @@
+# CS 124 PROJECT: Ancestry Mapping
+
+--
+
+## May 5
+- possible outputs the estimated number of alleles from each ancestry in each locus for each individual
+- cool visualizations of where SNPs map 
+
+![example](http://www.nature.com/nature/journal/v507/n7492/images/nature12961-sf1.jpg)
+
+## May 6
+- probably going to get dataset from HapMap; accidently downloaded 8GB file--need to ask which files are actually needed 
+- possible baseline method:
+	- find SNPs in each invididuals of known populations and label with a certain color
+	- look at SNPs of a target individuals and see if any of the SNPs line up with other populations
+	- if SNP area overlaps with multiple populations, then take the population that occurs most frequently 
+- alternate idea: like 170A project
+	- give a bunch of known populations and do neural network traning on them
+	- represent each SNP with 1,2,3 (depending on population) and non-snp with 0 
+
+possible data set `https://catalog.coriell.org/1/NHGRI/Collections/HapMap-Collections/Gujarati-Indians-in-Houston-TX-USA-GIH`
